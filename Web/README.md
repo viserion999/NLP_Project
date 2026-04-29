@@ -88,8 +88,8 @@ touch .env
 Add the following content to `.env`:
 
 ```env
-MONGO_URL=mongodb+srv://your-username:your-password@cluster.xxxxx.mongodb.net/lyricmind?retryWrites=true&w=majority
-SECRET_KEY=your-super-secret-key-change-this-in-production-min-32-chars
+MONGO_URL=
+SECRET_KEY=
 ```
 
 > **⚠️ Important:** Replace `your-username`, `your-password`, `cluster.xxxxx.mongodb.net`, and `SECRET_KEY` with your actual MongoDB Atlas credentials.
